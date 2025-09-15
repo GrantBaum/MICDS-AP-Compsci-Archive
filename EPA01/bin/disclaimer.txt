@@ -1,0 +1,21 @@
+THIS PROJECT USES CONCEPTS NOT COVERED IN CLASS (UNIT 1-2 SO FAR) DONE WITH INTERNET RESEARCH AS WELL
+AS PREVIOUSLY HELD OUTSIDE KNOWLEDGE. PLEASE DO NOT COPY THIS WITHOUT UNDERSTANDING HOW THE THINGS
+WITHIN WORK.
+
+BigDecimal: Bigdecimal is a library used to round double values to a certain amount of decimal places,
+not only to an int. It does this by rounding the value, converting it into a string and printing the created
+string.
+
+try / catch: a type of invalid input protection. All of the scanner code will be within a try catch block, where the user
+is involved. If the user inputs some sort of data we cant accept THAT WILL THROW AN EXCEPTION (like typing a string)
+the computer can catch it instead of crashing.
+
+while loop: an important part of the try catch loop is the while loop. The program could just end with an error
+if an exception is caught, but usually it is better to re prompt the user to try again. We could put every single
+input into its own try catch loop and only re prompt for the single thing they missed, but this is an extra
+ungraded assignment so well just prompt the user for all three since its their fault for being stupid anyways.
+
+sleeping: pauses the program. For a CLI like this one, it is purely for aesthetics. Note that you have to handle
+the interupted exception, which is where the program wakes up early, but usually you dont have to do anything
+cause its not that big of a deal if the program goes too fast.
+

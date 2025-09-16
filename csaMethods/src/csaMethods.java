@@ -1,3 +1,6 @@
+
+package csaMethods;
+
 import java.util.*;
 
 public class csaMethods {
@@ -505,4 +508,8 @@ public class csaMethods {
 		    }
 
 		}
+	
+	public static void main(String args[]) {
+		//nothing here
+	}
 }

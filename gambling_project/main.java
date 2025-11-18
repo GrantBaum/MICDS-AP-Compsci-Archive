@@ -73,7 +73,7 @@ public class main {
             } 
             else if (playerBlackjack) {
                 System.out.println("Player has blackjack!");
-                balance += (int)(bet + bet*1.5) - bet; 
+                balance += (int)(bet*1.5); 
 
                 methods.handOver(); //hand is over, display text
                 if(gameOver) {
@@ -174,7 +174,7 @@ public class main {
             if (methods.isBust(dealerHand)) {
 
                System.out.println("Dealer busts! Player wins.");
-               balance += bet + bet; // Regular win pays 2x bet (net gain = bet)
+               balance += bet; // Regular win pays 2x bet (net gain = bet)
                methods.pause(1500);
                methods.handOver(); //hand is over, display text
                if(gameOver) {
@@ -196,7 +196,7 @@ public class main {
             if (playerValue > dealerValue) {
 
                 System.out.println("Player wins!");
-                balance += (bet * 2) - bet; // Regular win pays 2x bet (net gain = bet)
+                balance += bet; // Regular win pays 2x bet (net gain = bet)
                 methods.pause(1500);
                 methods.handOver(); //hand is over, display text
                 if(gameOver) {
